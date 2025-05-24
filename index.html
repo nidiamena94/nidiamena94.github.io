@@ -151,14 +151,6 @@
             <a href="menu_principal.jsp" style="color: inherit; text-decoration: none;">Iniciar Sesión</a>
         </button>
 
-        <%
-            String error = (String) request.getAttribute("error");
-            if (error != null) {
-        %>
-            <p class="error-message"><%= error %></p>
-        <%
-            }
-        %>
     </form>
     <div class="links-container">
       
